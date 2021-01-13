@@ -1,5 +1,5 @@
 {
-  "name": "@myapos/recompose",
+  "name": "recompose",
   "version": "0.30.5",
   "private": true,
   "author": "Andrew Clark <acdlite@me.com>",
@@ -33,7 +33,9 @@
       "text-summary",
       "lcov"
     ],
-    "setupFilesAfterEnv": ["<rootDir>/scripts/jest.setup.js"]
+    "setupFilesAfterEnv": [
+      "<rootDir>/scripts/jest.setup.js"
+    ]
   },
   "lint-staged": {
     "*.js": [
